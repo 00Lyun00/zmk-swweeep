@@ -148,7 +148,7 @@
   &kp Q     &kp W      &kp E     &kp R    &kp T           &kp Y   &kp U      &kp I    &kp O      &kp P
   &kp A     &kp S      &kp D     &kp F    &kp G           &kp H   &kp J      &kp K    &kp L   &kp SEMI
   &kp Z     &kp X      &kp C     &kp V    &kp B           &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH
-                                 &trans             &trans                 &trans          &trans  &trans     &trans
+                   &trans      &trans     &trans          &trans  &trans     &trans
             >;
         };
 
@@ -157,7 +157,7 @@
             bindings = <
   &bootloader     &reset         &none              &kp LC(S)      &none           &kp ASTRK  &kp KP_NUMBER_7 &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
   &sk LGUI        &sk LEFT_ALT   &sk LCTRL          &sk LSHFT      &kp LC(A)       &kp FSLH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS
-  &kp LC(Z)       &kp LC(X)      &kp LC(C)          &kp LC(V)      &kp LC(Z)       &kp EQUAL  &kp KP_NUMBER_1 &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0
+  &kp LC(Z)       &kp LC(X)      &kp LC(C)          &kp LC(V)      &kp LC(Y)       &kp EQUAL  &kp KP_NUMBER_1 &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0
                                             &trans             &trans               &trans           &kp BSPC        &kp SPACE          &kp DOT
             >;
         };
@@ -167,7 +167,7 @@
             bindings = <
  &kp CAPS      &kp PG_UP   &kp UP      &kp PG_DN   &none                 &bootloader  &reset     &none      &lan_chan  &tog 2
  &kp HOME      &kp LEFT    &kp DOWN    &kp RIGHT   &kp END               &none        &sk LSHIFT &sk LCTRL  &sk LALT   &sk LGUI
- &none         &none       &none       &none       &none                 &kp LC(Z)    &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)
+ &none         &none       &none       &none       &none                 &kp LC(Y)    &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)
                            &none   &kp DEL    &kp BACKSPACE               &trans      &trans     &trans
             >;
         };
@@ -176,8 +176,8 @@
             label = "Sym";
             bindings = <
  &sk LALT        &kp F21         &kp F22         &kp F23         &kp F24          &kp PRINTSCREEN      &kp AMPERSAND  &kp ASTRK   &kp LPAR         &kp RPAR
- &sk LSHIFT      &kp F18         &kp F19         &kp F20         &kp F17          &kp SCROLLLOCK           &kp DLLR  &kp PRCNT  &kp CARET        &kp GRAVE
- &sk LCTRL       &kp F14         &kp F15         &kp F16         &kp F13          &kp PAUSE_BREAK           &kp EXCL     &kp AT   &kp HASH  &kp NON_US_BSLH
+ &sk LSHIFT      &kp F17         &kp F18         &kp F19         &kp F20          &kp SCROLLLOCK           &kp DLLR  &kp PRCNT  &kp CARET        &kp GRAVE
+ &sk LCTRL       &kp F13         &kp F14         &kp F15         &kp F16          &kp PAUSE_BREAK           &kp EXCL     &kp AT   &kp HASH  &kp NON_US_BSLH
                                  &trans          &trans          &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &none
             >;
         };
@@ -187,7 +187,7 @@
             bindings = <
  &kp F9          &kp F10          &kp F11          &kp F12               &kp K_VOL_UP          &trans  &kp LANG1      &none     &none     &none
  &kp F5           &kp F6           &kp F7           &kp F8                 &kp C_MUTE          &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI
- &kp F1           &kp F2           &kp F3           &kp F4          &kp K_VOLUME_DOWN          &kp LC(Z)    &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)
+ &kp F1           &kp F2           &kp F3           &kp F4          &kp K_VOLUME_DOWN          &kp LC(Y)    &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)
                                     &none            &none                      &none          &trans     &trans     &trans
             >;
         };
