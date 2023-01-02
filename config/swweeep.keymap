@@ -193,7 +193,7 @@
         nav_layer {
             label = "Navigation";
             bindings = <
-  &kp Q           &kp W           &kp E          &kp PG_DN          &kp undefined           &kp Y   &kp U      &kp I    &kp O      &kp P
+  &kp Q           &kp W           &kp E              &kp R                  &kp T           &kp Y   &kp U      &kp I    &kp O      &kp P
   &kp A           &kp S           &kp D              &kp F                  &kp G           &kp H   &kp J      &kp K    &kp L   &kp SEMI
   &kp Z           &kp X           &kp C              &kp V                  &kp B           &kp N   &kp M  &kp COMMA  &kp DOT  &kp SLASH
                                  &trans             &trans                 &trans          &trans  &trans     &trans
@@ -203,7 +203,7 @@
         sym_layer {
             label = "Symbols";
             bindings = <
-   &trans                &trans             &trans              &save          &bootloader          &kp ASTRK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9        &kp MINUS
+   &bootloader     &reset             &none              &save          &none                        &kp ASTRK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9        &kp MINUS
  &sk LGUI          &sk LEFT_ALT          &sk LCTRL          &sk LSHFT                &sall           &kp FSLH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6         &kp PLUS
     &undo                  &cut              &copy             &paste                &redo          &kp EQUAL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0
                                             &trans             &trans               &trans           &kp BSPC        &kp SPACE          &kp DOT
@@ -213,7 +213,7 @@
         func_layer {
             label = "Function";
             bindings = <
- &kp CAPS          &kp PG_UP            &kp UP          &kp PG_DN                 &trans          &bootloader      &reset      &none  &lan_chan    &tog 2
+ &kp CAPS          &kp PG_UP            &kp UP          &kp PG_DN                 &none           &bootloader      &reset      &none  &lan_chan    &tog 2
  &kp HOME           &kp LEFT          &kp DOWN          &kp RIGHT                &kp END                &none  &sk LSHIFT  &sk LCTRL   &sk LALT  &sk LGUI
     &none              &none             &none              &none                  &none                &redo      &paste      &copy       &cut     &undo
                                          &none            &kp DEL          &kp BACKSPACE               &trans      &trans     &trans
