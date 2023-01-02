@@ -189,7 +189,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "Default";
+            label = "Main";
             bindings = <
   &kp Q           &kp W              &kp F                &kp P              &kp B               &kp J      &kp L      &kp U    &kp Y  &kp SEMI
   &kp A           &kp R              &kp S                &kp T              &kp G               &kp M      &kp N      &kp E    &kp I     &kp O
@@ -199,7 +199,7 @@
         };
 
         nav_layer {
-            label = "Navigation";
+            label = "Qwert";
             bindings = <
   &kp Q           &kp W           &kp E              &kp R                  &kp T           &kp Y   &kp U      &kp I    &kp O      &kp P
   &kp A           &kp S           &kp D              &kp F                  &kp G           &kp H   &kp J      &kp K    &kp L   &kp SEMI
@@ -209,7 +209,7 @@
         };
 
         sym_layer {
-            label = "Symbols";
+            label = "Num";
             bindings = <
    &bootloader     &reset             &none              &save          &none                        &kp ASTRK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9        &kp MINUS
  &sk LGUI          &sk LEFT_ALT          &sk LCTRL          &sk LSHFT                &sall           &kp FSLH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6         &kp PLUS
@@ -219,7 +219,7 @@
         };
 
         func_layer {
-            label = "Function";
+            label = "Move";
             bindings = <
  &kp CAPS          &kp PG_UP            &kp UP          &kp PG_DN                 &none           &bootloader      &reset      &none  &lan_chan    &tog 2
  &kp HOME           &kp LEFT          &kp DOWN          &kp RIGHT                &kp END                &none  &sk LSHIFT  &sk LCTRL   &sk LALT  &sk LGUI
@@ -229,7 +229,7 @@
         };
 
         media_layer {
-            label = "Media";
+            label = "Sym";
             bindings = <
  &trans          &trans          &trans          &trans          &trans           &kp PRINTSCREEN      &kp AMPERSAND  &kp ASTRK   &kp LPAR         &kp RPAR
  &trans          &trans          &trans          &trans          &trans            &kp SCROLLLOCK           &kp DLLR  &kp PRCNT  &kp CARET        &kp GRAVE
@@ -239,7 +239,7 @@
         };
 
         mouse_layer {
-            label = "Mouse";
+            label = "Func";
             bindings = <
  &kp F9          &kp F10          &kp F11          &kp F12               &kp K_VOL_UP          &trans  &kp LANG1      &none     &none     &none
  &kp F5           &kp F6           &kp F7           &kp F8                 &kp C_MUTE          &trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI
@@ -249,7 +249,7 @@
         };
 
         winnav_layer {
-            label = "Win Navigation";
+            label = "BLE";
             bindings = <
         &none                 &none            &bt BT_PRV            &bt BT_NXT                 &none           &none   &none   &none   &none   &none
  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4           &none   &none   &none   &none   &none
