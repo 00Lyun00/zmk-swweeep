@@ -4,12 +4,12 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define MAIN 0
-#define NAV     1
-#define SYM     2
-#define FUNC    3
-#define MEDIA   4
-#define MOUSE   5
-#define WINNAV  6
+#define QWERT     1
+#define NUM     2
+#define MOVE    3
+#define SYM   4
+#define FUNC   5
+#define BLE  6
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
@@ -69,12 +69,12 @@
     &kp Q        &kp W        &kp F       &kp P         &kp B                                       &kp J         &kp L        &kp U         &kp Y       &kp SEMI
     &kp A        &kp R        &kp S       &kp T         &kp G                                       &kp M         &kp N        &kp E         &kp I       &kp O
     &kp Z        &kp X        &kp C       &kp D         &kp V                                       &kp K         &kp H        &kp COMMA     &kp DOT     &kp FSLH
-                              &kp LSHFT   &lt NAV SPACE &lt FUNC TAB                             &lt MEDIA BSPC   &lt SYM DEL  &kp RET
+                              &kp LSHFT   &lt NUM SPACE &lt SYM TAB                             &lt MOVE BSPC   &lt FUNC DEL  &kp RET
             >;
         };
 
-        nav_layer {
-            label = "Navigation";
+        qwert_layer {
+            label = "QWERT";
 
             bindings = <
     &kp ESC      &kp PG_UP    &kp UP      &kp PG_DN     &trans                                      &kp ASTRK     &kp N7       &kp N8        &kp N9      &kp MINUS
@@ -84,8 +84,8 @@
             >;
         };
 
-        sym_layer {
-            label = "Symbols";
+        num_layer {
+            label = "Num";
 
             bindings = <
     &kp EXCL     &kp AT       &kp HASH        &kp DLLR         &kp PRCNT                                   &kp CARET     &kp AMPS          &kp ASTRK     &kp UNDER   &kp EQUAL
@@ -95,8 +95,8 @@
             >;
         };
 
-        func_layer {
-            label = "Function";
+        move_layer {
+            label = "Move";
 
             bindings = <
     &bootloader  &kp LS(PG_UP) &kp LS(UP)   &kp LS(PG_DN) &trans                                         &kp C_MUTE       &kp F7       &kp F8        &kp F9      &kp F10
@@ -106,8 +106,8 @@
             >;
         };
 
-        media_layer {
-            label = "Media";
+        sym_layer {
+            label = "Sym";
 
             bindings = <
     &trans       &trans       &trans        &trans            &trans                                      &trans             &bt BT_PRV        &bt BT_NXT         &trans         &trans
@@ -117,8 +117,8 @@
             >;
         };
 
-        mouse_layer {
-            label = "Mouse";
+        func_layer {
+            label = "Func";
 
             bindings = <
     &bootloader &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
@@ -128,8 +128,8 @@
             >;
         };
 
-        winnav_layer {
-            label = "Win Navigation";
+        ble_layer {
+            label = "BLE";
 
             bindings = <
     &trans       &trans       &kp LG(UP)   &trans        &trans                                      &trans      &trans      &trans      &trans      &trans
