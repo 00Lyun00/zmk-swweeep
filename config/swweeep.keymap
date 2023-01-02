@@ -181,17 +181,17 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "Main";
+            label = "Default";
             bindings = <
   &kp Q           &kp W            &kp F              &kp P              &kp B               &kp J        &kp L      &kp U      &kp Y    &kp SEMI
   &kp A           &kp R            &kp S              &kp T              &kp G               &kp M        &kp N      &kp E      &kp I    &kp O
-  &kp Z           &kp X            &kp C              &kp D              &kp V               &kp K        &kp H  &kp COMMA      &kp DOT  &kp FSLH
+  &kp Z           &kp X            &kp C              &kp D              &kp V               &kp K        &kp H      &kp COMMA  &kp DOT  &kp FSLH
                                  &kp LSHFT          &lt 2 SPACE          &lt 4 TAB          &lt 3 BSPC  &lt 5 DEL    &kp RET
             >;
         };
 
         nav_layer {
-            label = "Qwert";
+            label = "Navigation";
             bindings = <
     &kp Q        &kp W        &kp E       &kp R         &kp T                                   &kp Y         &kp U        &kp I         &kp O       &kp P
     &kp A        &kp S        &kp D       &kp F         &kp G                                   &kp H         &kp J        &kp K         &kp L       &kp SEMI
@@ -201,7 +201,7 @@
         };
 
         sym_layer {
-            label = "Num";
+            label = "Symbols";
             bindings = <
     &trans       &trans       &trans      &save         &bootloader                             &kp ASTRK     &kp N7       &kp N8        &kp N9      &kp MINUS
     &sk LGUI     &sk LALT     &sk LCTRL   &sk LSHFT     &sall                                   &kp FSLH      &kp N4       &kp N5        &kp N6      &kp PLUS
@@ -211,7 +211,7 @@
         };
 
         func_layer {
-            label = "Move";
+            label = "Function";
             bindings = <
     &kp CAPS     &kp PG_UP    &kp UP      &kp PG_DN     &trans                                   &bootloader   &reset       &trans        &lan_chan   &tog QWERT
     &kp HOME     &kp LEFT     &kp DOWN    &kp RIGHT     &kp END                                  &trans        &sk LSHIFT   &sk LCTRL     &sk LALT    &sk LGUI
@@ -221,7 +221,7 @@
         };
 
         media_layer {
-            label = "Sym";
+            label = "Media";
             bindings = <
     &trans      &trans      &trans      &trans      &trans                                       &kp PSCRN   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR
     &trans      &trans      &trans      &trans      &trans                                       &kp SLCK    &kp DLLR    &kp PRCNT   &kp CARET   &kp GRAVE
@@ -231,7 +231,7 @@
         };
 
         mouse_layer {
-            label = "Func";
+            label = "Mouse";
             bindings = <
     &kp F9     &kp F10    &kp F11   &kp F12    &kp K_VOL_UP                                      &trans   &kp LANG1    &trans        &trans      &trans
     &kp F5     &kp F6     &kp F7    &kp F8     &kp C_MUTE                                        &trans   &sk LSHF T   &sk LCTRL     &sk LALT    &sk LGUI
@@ -241,7 +241,7 @@
         };
 
         winnav_layer {
-            label = "BLE";
+            label = "Win Navigation";
             bindings = <
     &trans       &trans       &bt BT_PRV   &bt BT_NXT    &trans                                  &trans      &trans      &trans      &trans      &trans
     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4                            &trans      &trans      &trans      &trans      &trans
