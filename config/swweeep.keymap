@@ -249,14 +249,5 @@
                                              &trans                 &trans          &trans          &trans  &trans  &trans
             >;
         };
-
-        Layer__7 {
-            bindings = <
- &trans          &trans          &trans          &trans          &trans          &trans  &trans  &trans  &trans  &trans
- &trans          &trans          &trans          &trans          &trans          &trans  &trans  &trans  &trans  &trans
- &trans          &trans          &trans          &trans          &trans          &trans  &trans  &trans  &trans  &trans
-                                 &trans          &trans          &trans          &trans  &trans  &trans
-            >;
-        };
     };
 };
