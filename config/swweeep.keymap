@@ -181,7 +181,7 @@
         func_layer {
             label = "Move";
             bindings = <
- &kp CAPS      &kp PG_UP   &kp UP      &kp PG_DN   &none                 &bootloader  &reset     &none      &lan_chan  &tog 2
+ &kp CAPS      &kp PG_UP   &kp UP      &kp PG_DN   &none                 &none  &none     &none      &lan_chan  &tog 2
  &kp HOME      &kp LEFT    &kp DOWN    &kp RIGHT   &kp END               &none        &sk LSHIFT &sk LGUI  &sk LALT   &sk LCTRL
  &none         &none       &none       &kp DOWN    &none                 &kp LG(Y)    &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)
                            &none   &kp DEL    &kp BACKSPACE               &trans      &trans     &trans
